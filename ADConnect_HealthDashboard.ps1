@@ -114,7 +114,7 @@ $body = @"
 <div class='dashboard'>
     <div class='header'>
         <h1>Hybrid Identity Sync Status Dashboard</h1>
-        <p><b>Tenant:</b> cabotcorp.onmicrosoft.com | <b>Primary:</b> MDC-ADC | <b>Staging:</b> ATL-ADC<br>
+        <p><b>Tenant:</b> contoso.onmicrosoft.com | <b>Primary:</b> MDC-ADC | <b>Staging:</b> ATL-ADC<br>
         <b>Last Sync:</b> $lastSyncWhen | <b>Next Sync:</b> $($syncScheduler.NextSyncCycleStartTimeInUTC) | 
         <b>Interval:</b> $($syncScheduler.CurrentlyEffectiveSyncCycleInterval)<br>
         <b>Scheduler:</b> <span style='color:red;'>Idle</span> | 
